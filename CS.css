@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-color:#d98621;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 20px;
+    color:black;
+    font-weight: bolder ;
+    font-size: 30px;
+}
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; 
+    right: 1000px;
+}
+table,td, th{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    
+}
+th{
+    background-color: #77ceda;
+    padding: 12px 14px;
+    font-weight: bolder;
+}
+.gaming,#turn{
+    padding: 6px 5px;
+    text-align: center;
+}
+.button{
+    margin-top: 10px;
+    background-color:lightblue;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #4e6ad8;
+    transition: ease-out 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+    box-shadow: inset 300px 0 0 0 black;
+    color: white;
+}
+
+#randomNum{
+    color:#d89a4e;
+    margin: 10px 0px;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#turnsLeft{
+    text-align: left;
+    display: inline-block;
+    margin-right: 100px;
+    border: 2px solid black;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 400px;
+}
+.scoresystem{
+    text-align: center;
+    width: 30%;
+    margin-left: 25%;
+    padding: 20px 0px;
+    margin-top: 50px;
+    border: 2px solid black;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+.gamingsystem{
+    display: inline;
+    align-items: center;
+}
+#player1score{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 600px;
+}
+#player2score{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 560px;
+}
+#tossfirst{
+    color:chartreuse;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    position: absolute;
+    right: 340px;
+    top: 75px;
+}
+#1,#2,#3,#4,#5{
+    background-color: #77ceda;
+    font-weight: bold;
+    font-size: large;
+}
+#vivek{
+    font-weight: bold;
+   
+}
+.mycanvas{
+    padding-top: 0px;
+    height: 50px;
+}
+#generatebtn{
+    color: black;
+    position: absolute;
+    left: 100px;
+}
+#resetbtn{
+    position: absolute;
+    left: 300px;
+}
+#tossbtn{
+    position: absolute;
+    right: 200px;
+}
+#turn{
+ position: absolute;
+ right: 500px;
+ top: 200px;
+}
+
+.generate{
+    position: absolute;
+    right: 500px;
+    top: 230px;
+    color: black;
+}
+#randomNum{
+    color: black;
+}
